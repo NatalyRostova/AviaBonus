@@ -1,5 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        int ticketCost = 12_000;
+        int oneMile = 20;
+        int bonus = ticketCost / oneMile;
+
+        System.out.println (bonus);
     }
 }
